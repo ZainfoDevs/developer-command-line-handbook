@@ -1,23 +1,22 @@
-
 # Introduction to the macOS Terminal
 
 ## Introduction
 
 The macOS Terminal provides a command-line interface (CLI) for interacting with your computer. Instead of navigating through menus and windows, you can enter commands to perform tasks.
 
-As a developer, you can use the terminal to manage files and directories, run Python programs, work with Git repositories, and execute development tools.
+As a developer, you can use the Terminal to manage files and directories, run Python programs, work with Git repositories, and execute development tools.
 
-In this guide, you will learn what the terminal is, how to open it on macOS, and how to run your first command.
+In this guide, you will learn how the Terminal works, how to open it on macOS, and how to run your first command.
 
 ## Learning objectives
 
 By the end of this guide, you will be able to:
 
 - Explain the purpose of the macOS Terminal.
-- Identify the difference between a terminal and a shell.
+- Describe the difference between a terminal and a shell.
 - Open the Terminal application.
-- Run a basic command.
-- Interpret the command output.
+- Identify the command prompt.
+- Run a basic command and interpret its output.
 
 ## Before you begin
 
@@ -26,15 +25,43 @@ You will need:
 - A Mac running macOS.
 - Access to the Terminal application.
 
+## Understanding the terminal and shell
+
+The terminal and shell work together, but they serve different purposes.
+
+**Terminal:** The Terminal application provides a window where you can enter commands and view their output.
+
+**Shell:** The shell interprets the commands you enter and runs them. Modern versions of macOS use Z shell (`zsh`) as the default shell.
+
+For example, when you enter a command in the Terminal, the shell processes the command and displays the result.
+
 ## Opening the Terminal
 
 1. Press `Command + Space` to open Spotlight.
 2. Type `Terminal`.
 3. Press `Return` to open the application.
 
-The Terminal window displays a command prompt where you can enter commands.
+The Terminal window opens and displays a command prompt.
+
+## Understanding the command prompt
+
+A command prompt indicates that the shell is ready to accept a command.
+
+For example:
+
+```text
+your-username@Mac ~ %
+```
+
+The prompt may display your username, computer name, and current directory.
+
+The `%` symbol commonly appears in the default `zsh` prompt.
+
+Your prompt may look different depending on your macOS and shell configuration.
 
 ## Running your first command
+
+Let's use the `pwd` command to identify your current directory.
 
 Enter the following command and press `Return`:
 
@@ -42,7 +69,7 @@ Enter the following command and press `Return`:
 pwd
 ```
 
-The `pwd` command stands for *print working directory*. It displays the absolute path of your current directory.
+The `pwd` command stands for *print working directory*. It displays the absolute path of your current working directory.
 
 For example:
 
@@ -50,6 +77,12 @@ For example:
 /Users/your-username
 ```
 
-The output depends on your current directory.
+The output shows the location of your current directory. Your actual output may differ depending on where you run the command.
 
-  
+You do not need to enter the command prompt itself. Type only the command.
+
+## Summary
+
+In this guide, you learned how the macOS Terminal and shell work together. You also learned how to identify the command prompt and use `pwd` to display your current directory.
+
+In the next guide, you will learn how to navigate between directories using terminal commands.
