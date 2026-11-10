@@ -10,7 +10,7 @@ The guides use examples from real software development workflows, including the 
 
 ### 1. Terminal Fundamentals
 
-- [1.1 Introduction to the macOS Terminal](01-terminal-fundamentals/01-introduction-to-macos-terminal.md)
+- [1.1 Introduction to the macOS Terminal](1-terminal-fundamentals/1.1-introduction-to-macos-terminal.md)
 
 ### 2. Git
 
