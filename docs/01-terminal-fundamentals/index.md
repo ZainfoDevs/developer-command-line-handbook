@@ -5,4 +5,4 @@ This section introduces the macOS Terminal and explains how to work with the com
 
 ## Guides
 
-- [1.1 Introduction to the macOS Terminal](01-introduction-to-macos-terminal.md)
+- [1.1 Introduction to the macOS Terminal](1.1-introduction-to-macos-terminal.md)
