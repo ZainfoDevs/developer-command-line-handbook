@@ -14,7 +14,7 @@ The guides use examples from real software development workflows, including the 
 
 ### 2. Git
 
-- [Git Commands](02-git/index.md)
+- [2. Git Commands](2-git/index.md)
 
 ### 3. GitHub
 

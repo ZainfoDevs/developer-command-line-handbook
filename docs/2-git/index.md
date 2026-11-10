@@ -1,4 +1,4 @@
-# Git Commands
+# 2. Git
 
 Git is a distributed version control system that helps developers track changes, manage branches, and maintain a history of their work.
 
@@ -10,8 +10,8 @@ The examples are based on development workflows used in the ZainfoDevs Solar Sit
 
 ## Guides
 
-1. Git Fundamentals
-2. Branch Management
-3. Working with Remote Repositories
-4. Stashing and Recovering Changes
-5. Synchronizing Repositories Across Computers
+- 2.1 Git Fundamentals
+- 2.2 Branch Management
+- 2.3 Working with Remote Repositories
+- 2.4 Stashing and Recovering Changes
+- 2.5 Synchronising Repositories Across Computers
